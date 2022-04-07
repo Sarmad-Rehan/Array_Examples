@@ -11,12 +11,12 @@ void main(List<String> args) {
 
   for (int i = 0; i < 10; i++) {
     if (numbers[i] == number) {
-      flag = numbers[i];
+      flag = i;
     }
-    if (flag == -1) {
-      print("Value not found");
-    } else {
-      print("Value found at: $flag");
-    }
+  }
+  if (flag == -1) {
+    print("Value not found");
+  } else {
+    print("Value found at index: $flag");
   }
 }
