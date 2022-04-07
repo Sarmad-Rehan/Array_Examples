@@ -8,7 +8,7 @@
             "name": "Dart & Flutter",
             "request": "launch",
             "type": "dart",
-            "program": "main.dart",
+            "program": "Program_7.10.dart",
             "console": "externalTerminal"
         }
     ]
